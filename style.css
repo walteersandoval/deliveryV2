@@ -1,0 +1,13 @@
+/* Importando los estilos desde style.css */
+
+@import url('general.css');
+@import url('header.css');
+@import url('search.css');
+@import url('main.css');
+@import url('mobile.css');
+@import url('desktop.css');
+@import url('notification.css');
+@import url('cart.css');
+@import url('modal.css');
+/* A continuación, puedes continuar con los estilos generales y específicos de style.css */
+/* ... */

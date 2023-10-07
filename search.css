@@ -1,0 +1,75 @@
+#product-search {
+    padding: 10px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px;
+    background-color: transparent;
+    flex-grow: 1;
+    min-height: 50px;
+    padding: 0 1rem;
+    color: #333;
+    font-size: 15px;
+    width: 630%;
+    max-width: none;
+}
+
+#search-button {
+    background-color: #5e4dcd;
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    margin-left: 10px;
+}
+
+#search-button:hover {
+    background-color: #5e5dcd;
+}
+
+#product-search:focus,
+#product-search:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 18px;
+}
+
+.input {
+    min-height: 50px;
+    flex-grow: 1;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+
+.button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+    background-color: #5e5dcd;
+}
+
+.input:focus,
+.input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+}

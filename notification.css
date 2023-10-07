@@ -1,0 +1,44 @@
+/* Estilos para notificación */
+#notification-container {
+    position: fixed;
+    max-width: 300px;
+    background-color: rgb(14 151 23 / 80%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#notification-container.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Estilos para el botón de cerrar la notificación */
+#notification-container .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+#notification-container .close-button:hover {
+    color: #ccc;
+}
+
+/* Estilos para notificación en dispositivos móviles */
+@media (max-width: 767px) {
+    #notification-container {
+        position: fixed;
+        top: auto;
+        left: auto;
+        background-color: #5e4dcd;
+        color: #fff;
+        border-radius: 5px;
+        transition: opacity 0.3s ease-in-out;
+        bottom: 90%;
+    }
+}
